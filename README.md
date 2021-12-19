@@ -12,7 +12,6 @@
 
 <!--START_SECTION:waka-->
 ```text
-Go         45 mins         █████████████░░░░░░░░░░░░   52.40 % 
-Bash       41 mins         ████████████░░░░░░░░░░░░░   47.50 % 
+No Activity tracked this Week
 ```
 <!--END_SECTION:waka-->
