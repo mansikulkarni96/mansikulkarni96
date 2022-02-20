@@ -12,10 +12,6 @@
 
 <!--START_SECTION:waka-->
 ```text
-Total: 1 hr 5 mins
-
-Go      1 hr 1 min      █████████████████▒░░░░░░░   69.82 % 
-Other   22 mins         ██████▒░░░░░░░░░░░░░░░░░░   25.74 % 
-YAML    3 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.60 % 
+YAML   3 mins          ███████████████████████░░   92.01 % 
 ```
 <!--END_SECTION:waka-->
