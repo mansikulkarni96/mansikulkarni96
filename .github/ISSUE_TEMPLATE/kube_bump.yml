@@ -1,4 +1,4 @@
-name: Issue to update WMCO to support Kubernetes bump
+name: Update WMCO to support Kubernetes bump
 description: Issue to track Kubernetes bump dependencies
 assignees:
   - "@openshift/openshift-team-windows-containers"
@@ -24,19 +24,19 @@ body:
       label: Step 2 - Upgrade Kubernetes client and controller-runtime dependencies(can be done in parallel with step 3)
       options:
         - label: Kubernetes client and controller-runtime dependencies are upgraded
- - type: checkboxes
+  - type: checkboxes
     id: checklist
     attributes:
       label: Step 3 - Upgrade OpenShift client and API dependencies 
       options:
         - label: OpenShift client and API dependencies are upgraded
-- type: checkboxes
+  - type: checkboxes
     id: checklist
     attributes:
       label: Step 4 - Update kubelet and kube-proxy submodules in WMCO repository
       options:
         - label: kubelet and kube-proxy submodules are updated pointing to the latest commits including the rebase
-- type: checkboxes
+  - type: checkboxes
     id: checklist
     attributes:
       label: Step 5 - Make sure sdn-<OCP_version>-kubernetes-<K8s_version> branch has to be created
