@@ -35,7 +35,7 @@ body:
         - label: kubelet and kube-proxy submodules are updated pointing to the latest commits including the rebase
   - type: checkboxes
     attributes:
-      label: Step 5 - Make sure sdn-<OCP_version>-kubernetes-<K8s_version> branch has to be created
+      label: Step 5 - Make sure SDN branch has to be created for kube-proxy submodule
       options:
-        - label: SDN branch has been created from downstream [openshift/kubernetes](https://github.com/openshift/kubernetes) 
+        - label: sdn-<OCP_version>-kubernetes-<K8s_version> branch has been created from downstream [openshift/kubernetes](https://github.com/openshift/kubernetes) 
                  and the kube-proxy submodule has been pointed to it.
