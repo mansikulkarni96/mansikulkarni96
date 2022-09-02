@@ -15,8 +15,31 @@ body:
   - type: checkboxes
     id: checklist
     attributes:
-      label: Step 1 - Upgrade go version
-      description: Go version needs to be upgraded to match rest of the OpenShift and k8s upgraded components.
+      label: Step 1 - Upgrade go version to match rest of the OpenShift and Kubernetes upgraded components.
       options:
         - label: Go version is upgraded for WMCO and WMCB branches
-          required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Step 2 - Upgrade Kubernetes client and controller-runtime dependencies(can be done in parallel with step 3)
+      options:
+        - label: Kubernetes client and controller-runtime dependencies are upgraded
+ - type: checkboxes
+    id: checklist
+    attributes:
+      label: Step 3 - Upgrade OpenShift client and API dependencies 
+      options:
+        - label: OpenShift client and API dependencies are upgraded
+- type: checkboxes
+    id: checklist
+    attributes:
+      label: Step 4 - Update kubelet and kube-proxy submodules in WMCO repository
+      options:
+        - label: kubelet and kube-proxy submodules are updated pointing to the latest commits including the rebase
+- type: checkboxes
+    id: checklist
+    attributes:
+      label: Step 5 - Make sure sdn-<OCP_version>-kubernetes-<K8s_version> branch has to be created
+      options:
+        - label: SDN branch has been created from downstream [openshift/kubernetes](https://github.com/openshift/kubernetes) 
+                 and the kube-proxy submodule has been pointed to it.
