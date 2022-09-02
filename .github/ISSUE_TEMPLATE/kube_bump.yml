@@ -1,4 +1,3 @@
----
 name: Issue for k8s bump
 description: Issue to track k8s bump dependencies
 assignees:
@@ -14,7 +13,7 @@ body:
   - type: checkboxes
     id: checklist
     attributes:
-      label: Step 1: Upgrade go version
+      label: Step 1 - Upgrade go version
       description: Go version needs to be upgraded to match rest of the OpenShift and k8s upgraded components.
       options:
         - label: Go version is upgraded for WMCO and WMCB branches
