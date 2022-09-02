@@ -1,3 +1,10 @@
+---
+name: Issue for k8s bump
+about: Issue to track k8s bump dependencies
+assignees:
+  - "@openshift/openshift-team-windows-containers"
+---
+
 **Meta Issue for k8s 1.25 bump**
 
 In order to bump Windows Machine Config Operator to support Kubernetes 1.25 there are a few dependencies we rely on making the bump first.
