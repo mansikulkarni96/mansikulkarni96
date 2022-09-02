@@ -1,4 +1,4 @@
-name: Update WMCO to support Kubernetes bump
+name: Issue to update WMCO to support Kubernetes bump
 description: Issue to track Kubernetes bump dependencies
 assignees:
   - "@openshift/openshift-team-windows-containers"
