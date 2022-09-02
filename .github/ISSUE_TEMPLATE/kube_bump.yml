@@ -11,4 +11,11 @@ body:
         In order to bump Windows Machine Config Operator to support Kubernetes 1.25 there are a few dependencies we rely on making the bump first.
         This issue is meant to help track all dependencies and the status of their bumps.
         Order of dependency bumps:
-        
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Step 1: Upgrade go version
+      description: Go version needs to be upgraded to match rest of the OpenShift and k8s upgraded components.
+      options:
+        - label: Go version is upgraded for WMCO and WMCB branches
+          required: true
